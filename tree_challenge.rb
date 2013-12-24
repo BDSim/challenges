@@ -1,5 +1,6 @@
 #Tree Challenge 12/16/13 redddit
 require 'pry'
+require 'pry-byebug'
 
 keys = [:base, :foundation, :branch]
 
