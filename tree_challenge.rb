@@ -1,12 +1,10 @@
 #Tree Challenge 12/16/13 redddit
-require 'pry'
 require 'pry-byebug'
 
 keys = [:base, :foundation, :branch]
 
 values = gets.chomp.split(" ")
-input = []
-input << values[0].to_i << values[1] << values[2]
+input = [] << values[0].to_i << values[1] << values[2]
 index = Hash[*keys.zip(input).flatten]
 def tree (s) 
     1.upto(s[:base]) do |i| 
