@@ -1,1 +1,1 @@
-Reddit Dailyprogrammer Challenges
+Reddit /r/dailyprogrammer Challenges
